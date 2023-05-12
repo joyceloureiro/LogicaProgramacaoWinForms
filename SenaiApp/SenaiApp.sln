@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo", "Modulo", "{6D152D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenaiApp.Modulo.Windows", "Modulo\SenaiApp.Modulo.Windows\SenaiApp.Modulo.Windows.csproj", "{EC714E93-8A6F-4B2A-A804-F8442D00F293}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "Modulo\WindowsForms\WindowsForms.csproj", "{8220ADF9-743B-43DC-A091-1DE70AF6A3A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{EC714E93-8A6F-4B2A-A804-F8442D00F293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC714E93-8A6F-4B2A-A804-F8442D00F293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC714E93-8A6F-4B2A-A804-F8442D00F293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8220ADF9-743B-43DC-A091-1DE70AF6A3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8220ADF9-743B-43DC-A091-1DE70AF6A3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8220ADF9-743B-43DC-A091-1DE70AF6A3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8220ADF9-743B-43DC-A091-1DE70AF6A3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC714E93-8A6F-4B2A-A804-F8442D00F293} = {6D152DA1-1633-4204-B270-6557FA347B25}
+		{8220ADF9-743B-43DC-A091-1DE70AF6A3A3} = {6D152DA1-1633-4204-B270-6557FA347B25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A961DDF-D1F2-478B-ABCD-FC740B2733DE}
