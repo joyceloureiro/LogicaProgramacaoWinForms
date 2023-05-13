@@ -46,14 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AgenciaBancaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AgenciaBancaria.Designer.cs">
+      <DependentUpon>AgenciaBancaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPagamento.Designer.cs">
+      <DependentUpon>formPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPoupanca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPoupanca.Designer.cs">
+      <DependentUpon>frmPoupanca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgenciaBancaria.resx">
+      <DependentUpon>AgenciaBancaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPoupanca.resx">
+      <DependentUpon>frmPoupanca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +103,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savings_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_digital_currency_qpak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_digital_currency_qpak1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
